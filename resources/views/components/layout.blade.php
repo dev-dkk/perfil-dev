@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
 </head>
 <body>
+    <x-cabecalho/>
     <div class="container">
         <h1>{{$title}}</h1>
         {{$slot}}
     </div>
+    <x-rodape/>
 </body>
 </html>

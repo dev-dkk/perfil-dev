@@ -11,4 +11,19 @@ class PerfilController extends Controller
         $bio = "Breve Biografia minha";
         return view('perfil.bio')-> with('bio', $bio);
     }
+    public function inicio()
+    {
+        $inicio = "Texto que vai no inicio";
+        return view('perfil.inicio') -> with('inicio', $inicio);
+    }
+    public function formacao()
+    {
+        $formacao = "Minha Formação aqui";
+        return view('perfil.formacao') -> with('formacao', $formacao);
+    }
+    public function certificados()
+    {
+        $certificados = "Meus Certificados";
+        return view('perfil.certificados') -> with('certificados', $certificados);
+    }
 }
