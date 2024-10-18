@@ -1,3 +1,3 @@
 <x-layout title="Biografia">
-    <h2>{{ $bio }}</h2>
+    <p>{{ $bio }}</p>
 </x-layout>

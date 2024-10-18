@@ -1,3 +1,3 @@
 <x-layout title="Inicio">
-    <h2>{{ $inicio }}</h2>
+    <p>{{ $inicio }}</p>
 </x-layout>

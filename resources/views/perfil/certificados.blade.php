@@ -1,3 +1,3 @@
 <x-layout title="Certificados">
-    <h2>{{ $certificados }}</h2>
+    <p>{{ $certificados }}</p>
 </x-layout>

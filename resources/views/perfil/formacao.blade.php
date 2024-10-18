@@ -1,3 +1,3 @@
 <x-layout title="Formação">
-    <h2>{{ $formacao }}</h2>
+    <p>{{ $formacao }}</p>
 </x-layout>
